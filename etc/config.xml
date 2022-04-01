@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<dfrontend>
+			<settings>
+				<enable>1</enable>
+				<disable_specific>0</disable_specific>
+				<disabled_urls/>
+				<exempted_urls/>
+				<frontend_base_url>https://www.manishjoy.com/</frontend_base_url>
+			</settings>
+		</dfrontend>
+	</default>
+</config>

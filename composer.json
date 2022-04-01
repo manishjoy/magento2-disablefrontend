@@ -1,0 +1,24 @@
+{
+    "name": "manishjoy/module-disablefrontend",
+    "description": "Magento 2 Extension to Disable Default Magento Frontend and Redirect to Any Other URL",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Manish Joy",
+            "email": "manishjoy.mj@gmail.com",
+            "homepage": "https://www.manishjoy.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\DisableFrontend\\": ""
+        }
+    }
+}

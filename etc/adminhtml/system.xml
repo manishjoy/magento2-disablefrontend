@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="dfrontend" sortOrder="100" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>Disable Frontend</label>
+			<tab>manishjoy</tab>
+			<resource>ManishJoy_DisableFrontend::config_manishjoy_disablefrontend</resource>
+			<group id="settings" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>Settings</label>
+				<field id="enable" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Disable Frontend</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+				<field id="disable_specific" type="select" sortOrder="20" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Disable Specific URL Actions</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+					<comment><![CDATA[If selected <strong>No</strong>, all of the frontend URLs will be restricted/redirected.]]></comment>
+				</field>
+				<field id="disabled_urls" type="textarea" sortOrder="30" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Disabled URLs</label>
+					<comment><![CDATA[Comma separated URLs (e.g. http://yourstore.com/customer-service). Only these URL actions will be restricted/redirected.]]></comment>
+					<depends>
+                		<field id="*/*/disable_specific">1</field>
+            		</depends>
+				</field>
+				<field id="exempted_urls" type="textarea" sortOrder="40" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>Exempted URL Actions</label>
+					<comment><![CDATA[Comma separated URLs (e.g. http://yourstore.com/customer-service). These URL actions will not be restricted/redirected.]]></comment>
+				</field>
+				<field id="frontend_base_url" type="text" sortOrder="50" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>External Url to Redirect</label>
+					<comment><![CDATA[Enter the external URL which you want the frontend to get redirected. If left empty, It will Just show an error message.]]></comment>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
