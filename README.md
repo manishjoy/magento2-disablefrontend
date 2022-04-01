@@ -18,14 +18,16 @@ ________________________________________________________________________________
 
 2. Create a directory **app/code/Magento/ManishJoy/DisableFrontend**
 
-3. Enter following commands to enable module:
+3. Upload the files to this directory
+
+4. Enter following commands to enable module:
 
     ```bash
     bin/magento module:enable ManishJoy_DisableFrontend
     bin/magento setup:upgrade
     bin/magento setup:static-content:deploy -f
     ```
-4. Now, you are all set to go, use following instructions to run console commands
+5. Now, you are all set to go, use following instructions to run console commands
 
 ___________________________________________________________________________________________________
 
