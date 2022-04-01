@@ -36,7 +36,7 @@ ________________________________________________________________________________
 
 2. Navigate to Store ⇨ Configuration ⇨ Manish Joy ⇨ Disable Frontend
 
-<img src='https://i.ibb.co/rHdTFtj/patreon-btn.jpg' width='100%' border='0' alt='Store ⇨ Configuration ⇨ Manish Joy ⇨ Disable Frontend' />
+<img src='https://i.ibb.co/PcBHkvH/Selection-048.png' width='100%' border='0' alt='Store ⇨ Configuration ⇨ Manish Joy ⇨ Disable Frontend' />
 
 3. Make required changes and Save Config
 
