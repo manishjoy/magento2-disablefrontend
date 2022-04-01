@@ -51,7 +51,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________
 ## Liked my work?
 
-<a href="https://www.paypal.me/manishjoy" rel="nofollow"><img height="36" src="https://manishjoy.github.io/img/coffee-btn-image.png" border="0" alt="Buy Me a Coffee" data-canonical-src="https://manishjoy.github.io/img/coffee-btn-image.png" style="max-width:100%;"></a>
+<a href="https://www.paypal.me/manishjoy" rel="nofollow"><img height="36" src="https://i.ibb.co/cJXgn0j/buyme-a-coffee.png" border="0" alt="Buy Me a Coffee" data-canonical-src="https://i.ibb.co/cJXgn0j/buyme-a-coffee.png" style="max-width:100%;"></a>
 
 --- OR ---
 
